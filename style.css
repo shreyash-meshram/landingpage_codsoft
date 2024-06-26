@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');  
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+
+.container{
+    max-width: 100vw;
+    
+}
+
+.bg::before{
+    content:'';
+    background-image: url(https://www.toddrogerseyewear.com/wp-content/uploads/2018/05/hero-shot-shop-1-om.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background-attachment: fixed;
+    filter: brightness(74%);
+   
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #d8fcf5;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: blue;
+    font-size: 1.05;
+}
+
+.left {
+    font-size: 1.7rem;
+}
+
+.logo {
+    margin: 0 20px;
+    font-size: 40px;
+}
+
+.h-txt {
+    max-width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate (-50%, -50%);
+    text-align: center;
+    color: black;
+}
+
+.h-txt span {
+    letter-spacing: 5px;
+}
+
+.h-txt h1 {
+    font-size: 1.5em;
+}
+
+.h-txt a {
+    text-decoration: none;
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    letter-spacing: 5px;
+}
+
+.bg {
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    opacity: 0.30;
+
+}
+
+.e {
+    font-size: 22px;
+}
+
+.box {
+    width: 250px;
+    margin: 12px 15px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.box ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.box ul li {
+    margin: 2px 0px;
+    padding-left: 0;
+}
+
+
+.text-center {
+    line-height: 90px;
+}
+
+.btn {
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    background: #1E90FF;
+    width: 95px;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transform: scale(1.1);
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.navbar {
+    line-height: 45px;
+}
+.min-h-screen{
+    min-height: 100vh;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.font-bold{
+    font-weight: bolder;
+}
+
+.btn:hover, .btn:focus, .btn:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
